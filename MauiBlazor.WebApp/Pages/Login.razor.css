@@ -1,0 +1,25 @@
+.login-page {
+    width: 100dvw;
+    height: 100dvh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.login-form button {
+    width: 100%;
+}
+

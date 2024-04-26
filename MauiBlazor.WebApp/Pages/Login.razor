@@ -1,9 +1,11 @@
 ﻿@page "/login"
 @layout LoginLayout
 
-<h3>Login</h3>
-
-<label>Email:</label>
-<input @bind="Email" type="email" />
-
-<button @onclick="LoginUser">Login</button>
+<div class="login-page">
+    <div class="login-form">
+        <div class="form-group">
+            <input @bind="Email" id="email" type="email" class="form-control" placeholder="Emailaddress"/>
+        </div>
+        <button type="button" class="btn btn-primary" @onclick="LoginUser">Login</button>
+    </div>
+</div>
